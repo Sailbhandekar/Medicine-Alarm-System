@@ -1,0 +1,32 @@
+Dependencies for Project 'Medicine_Reminder_System', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x67A7A424)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (defines.h)(0x67A65409)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (lcd_defines.h)(0x67A3C71B)
+I (keypad_defines.h)(0x67A504AE)
+I (rtc_defines.h)(0x67A655C8)
+I (delay.h)(0x67A24F31)
+F (.\lcd_defines.c)(0x67A3AB3B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd_defines.o --omf_browse .\lcd_defines.crf --depend .\lcd_defines.d)
+I (lcd_defines.h)(0x67A3C71B)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x67A24F31)
+F (.\keypad_defines.c)(0x67A4F939)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keypad_defines.o --omf_browse .\keypad_defines.crf --depend .\keypad_defines.d)
+I (keypad_defines.h)(0x67A504AE)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x67A3C71B)
+F (.\delay.c)(0x67A24F31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (delay.h)(0x67A24F31)
+F (.\defines.c)(0x67A7A1CB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\defines.o --omf_browse .\defines.crf --depend .\defines.d)
+I (defines.h)(0x67A65409)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (lcd_defines.h)(0x67A3C71B)
+I (rtc_defines.h)(0x67A655C8)
+I (keypad_defines.h)(0x67A504AE)
+I (delay.h)(0x67A24F31)
+F (.\rtc_defines.c)(0x67A6FF8C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc_defines.o --omf_browse .\rtc_defines.crf --depend .\rtc_defines.d)
+I (rtc_defines.h)(0x67A655C8)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x67A3C71B)
+I (keypad_defines.h)(0x67A504AE)
+I (delay.h)(0x67A24F31)

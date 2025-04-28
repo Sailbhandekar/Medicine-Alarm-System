@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\lcd_defines.o"
+".\keypad_defines.o"
+".\delay.o"
+".\defines.o"
+".\rtc_defines.o"
+--strict --scatter ".\Medicine_Reminder_System.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Medicine_Reminder_System.map" -o .\Medicine_Reminder_System.axf
